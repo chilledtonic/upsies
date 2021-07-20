@@ -254,7 +254,7 @@ async def _request(method, url, headers={}, params={}, data={}, files={},
             if result is not None:
                 return result
 
-        _log.debug('%s: %r: %r', method, url, params)
+        _log.debug('%s: %r: %r', method, url, params, data)
         try:
             response = await _client.send(
                 request=request,
