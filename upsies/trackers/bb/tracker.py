@@ -79,7 +79,7 @@ class BbTracker(TrackerBase):
         'torrent': '/torrents.php',
     }
 
-    _max_login_attempts = 30
+    _max_login_attempts = 60
     _login_retry_delay = 1
     _login_retry_delay_max = 5
 
