@@ -104,7 +104,7 @@ class BbTracker(TrackerBase):
                     data={
                         'username': self.options['username'],
                         'password': self.options['password'],
-                        'login': 'Log In!',
+                        'login': 'Log+In!',
                     },
                 )
                 doc = html.parse(response)
